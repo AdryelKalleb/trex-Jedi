@@ -80,7 +80,7 @@ function setup() {
   solo.velocityX = -4;
   
   //criando solo invisível
-  soloinvisivel = createSprite(width*0.1,height*0.85,width,80);
+  soloinvisivel = createSprite(width*0.1,height*0.8595,width,80);
   soloinvisivel.visible = false;
   
   //gerar números aleatórios
