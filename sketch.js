@@ -98,7 +98,7 @@ function draw() {
    if (solo.x < 0){
     solo.x = solo.width/2;
    }   
-  if(touches.length>0||keyDown("Up_Arrow")&&trex.isTouching(solo)) {
+  if(touches.length>0||keyDown("Up_Arrow")&&trex.y>170) {
     trex.velocityY = -12;
     
     touches=[]
